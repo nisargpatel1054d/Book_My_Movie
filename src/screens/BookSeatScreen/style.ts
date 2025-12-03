@@ -1,0 +1,122 @@
+import {StyleSheet} from 'react-native';
+import color from '../../config/colors';
+
+const style = StyleSheet.create({
+  areaview: {
+    flex: 1,
+    backgroundColor: color.black,
+  },
+  renderiteammainview: {
+    borderRadius: 30,
+    width: 60,
+    height: 100,
+    marginHorizontal: 6,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+  },
+  renderiteamsubview: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  renderiteamtext: {fontSize: 16, fontWeight: 'bold'},
+  divider: {
+    borderWidth: 2,
+    borderColor: color.vibrantHoney,
+    marginHorizontal: 28,
+    marginTop: 32,
+  },
+  rendertimetouchable: {
+    borderWidth: 1.5,
+    borderRadius: 30,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    marginHorizontal: 6,
+  },
+  container: {
+    width: '100%',
+    padding: 10,
+    backgroundColor: color.black,
+    alignItems: 'center',
+  },
+  tochabletext: {
+    color: color.white,
+    fontSize: 16,
+    fontWeight: '500',
+    textAlign: 'center',
+  },
+  buytickets:{color: color.black, fontSize: 20},
+  flatlisttecketselectview:{backgroundColor: color.black, paddingVertical: 20},
+  seat: {
+    width: 24,
+    height: 24,
+    margin: 4,
+    borderRadius: 4,
+    backgroundColor: color.cocoBlack,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  threemodemainview: {
+    flexDirection: 'row',
+    gap: 61,
+    marginHorizontal: 15.5,
+    marginTop: 10,
+    justifyContent: 'center',
+  },
+  threemodeview: {flexDirection: 'row', gap: 8},
+  flatlistview: {backgroundColor: color.black, marginTop: 12},
+  reserved: {
+    backgroundColor: color.fleurDeSelCaramel,
+  },
+  ticketdetailview: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginHorizontal: 16,
+    marginTop: 32,
+  },
+  selected: {
+    backgroundColor: color.eggToast,
+    color: color.black,
+  },
+  text: {
+    fontSize: 8,
+    color: color.silverGray,
+  },
+  available: {
+    height: 23,
+    width: 23,
+    backgroundColor: color.cocoBlack,
+    borderRadius: 4,
+  },
+  resurve: {height: 23, width: 23, backgroundColor: color.burntCoffee, borderRadius: 4},
+  select: {height: 23, width: 23, backgroundColor: color.vibrantHoney, borderRadius: 4},
+  pricetext: {color: color.vibrantHoney, fontSize: 24, fontWeight: 'bold'},
+  typefont: {color: color.errigalWhite, fontSize: 14},
+  total: {color: color.white, fontSize: 16, fontWeight: 'bold'},
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: color.white,
+    marginTop: 20,
+    textAlign: 'center',
+  },
+  divider2: {
+    borderWidth: 1,
+    borderColor: color.carbonFiber,
+    marginTop: 32,
+  },
+  button: {
+    height: 56,
+    borderWidth: 1,
+    borderRadius: 64,
+    backgroundColor: color.vibrantHoney,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+    width: 191,
+  },
+});
+export default style;
